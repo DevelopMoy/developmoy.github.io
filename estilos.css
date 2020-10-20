@@ -1,0 +1,82 @@
+#logoMain{
+    height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+#logoMovil{
+    display: none;
+}
+
+.imgCar{
+    height: 800px;
+}
+
+/* ESTILOS AREA CONOCENOS */
+
+#areaConocenos{
+    width: 100%;
+    height: auto;
+    background-color: #F4F7F9;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap row;
+}
+
+#areaConocenos>h1{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-size: 3em;
+    flex-grow: 1;
+    flex-basis: 100%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contenedorConoc{
+    border-radius: 10px;
+    padding: 3%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 6px #cccccc;
+    flex-basis: 40%;
+    flex-grow: 1;
+    margin: 2% 2.5%;
+    height: auto;
+}
+
+.contenedorConoc img {
+    width: 20%;
+    text-align: center;
+    transition: all 300ms;
+}
+
+.contenedorConoc:hover{
+    box-shadow: 0px 0px 15px #cccccc;
+}
+
+.contenedorConoc:hover img{
+    width: 22%;
+}
+
+.contenedorConoc h2 {
+    font-size: 2.8em;
+    color: #FF0000;
+    text-align: center;
+    font-family:'Lato',sans-serif;
+}
+
+.contenedorConoc p{
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+}
+
+.contenImgConoc{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* FIN ESTILOS AREA CONOCENOS */
